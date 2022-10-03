@@ -25,7 +25,7 @@ source.include_patterns = assets/*
 #android.presplash_color = #000000
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,jpg,spec,
+source.include_exts = 
 
 # (bool) Enable AndroidX support. Enable when 'android.gradle_dependencies'
 # contains an 'androidx' package, or any package from Kotlin source.
@@ -37,7 +37,7 @@ version = 0.0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements =  python3,Kivy,Kivymd,
+requirements =  python3,Kivy==2.0.0,kivymd,pillow,
 
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)

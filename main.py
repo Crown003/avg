@@ -4,7 +4,7 @@ from kivy.uix.screenmanager import Screen,ScreenManager,FadeTransition
 from kivymd.uix.button import MDRaisedButton
 from kivymd.uix.dialog import MDDialog
 from kivy.metrics import dp
-#builder str
+#builder s
 helper_string="""
 ScreenManager:
 	id:sm_manager
@@ -163,6 +163,6 @@ class Main(MDApp):
 			dialog = MDDialog(title="Your Result",text=f"Your Input Numbers: {list1}\nYour average is {average}",
 				buttons=[done_btn],size_hint=[.8,None])
 			dialog.open()
-#running the app
+	
 if __name__ == "__main__":
 	Main().run()
